@@ -27,4 +27,41 @@ focus_tree = {
 
 		}
 	}
+
+	##################
+	#### EKONOMIA ####
+	##################
+	# Na start same kierunki z PRL
+	focus = {
+		id = ADU_economic_spawacz
+		icon = GFX_focus_POL_the_four_year_plan
+		x = 0
+		y = 0
+		cost = 5
+
+		ai_will_do = { factor = 10 }
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		completion_reward = {
+
+		}
+	}
+
+	#Wybudowanie warsztatow, a potem kierunkow tam obecnych.
+	focus = {
+		id = ADU_economic_warsztaty
+		icon = GFX_focus_POL_the_four_year_plan
+		#prerequisite = { focus = ADU_test_focus1 }
+		#mutually_exclusive = { focus = ADU_test_focus2 }
+		x = 0
+		y = 0
+		cost = 5
+
+		ai_will_do = { factor = 10 }
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		completion_reward = {
+
+		}
+	}
 }
