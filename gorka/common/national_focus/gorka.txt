@@ -1,0 +1,30 @@
+focus_tree = {
+	id = gorka_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ADU
+		}
+	}
+	default = no
+
+	focus = {
+		id = ADU_test_focus
+		icon = GFX_focus_POL_the_four_year_plan
+		#prerequisite = { focus = ADU_test_focus1 }
+		#mutually_exclusive = { focus = ADU_test_focus2 }
+		x = 0
+		y = 0
+		cost = 5
+
+		ai_will_do = { factor = 10 }
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
+		
+		completion_reward = {
+
+		}
+	}
+}
