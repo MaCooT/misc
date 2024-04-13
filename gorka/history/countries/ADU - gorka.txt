@@ -101,6 +101,6 @@ set_popularities = {
 }
 
 #POD TYM MUSI BYĆ MIN 1 WOLNA LINIJKA!
-#recruit_character = POL_ignacy_moscicki
+recruit_character = ADU_test_char
 
 
