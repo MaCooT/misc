@@ -21,6 +21,19 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do = { factor = 10 }
+
+		available = {
+			POL = {
+				exists = yes
+			}
+		}
+
+		bypass = {
+			POL = {
+				exists = no
+			}
+		}
+
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
 		
 		completion_reward = {
