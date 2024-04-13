@@ -1,0 +1,40 @@
+characters = {
+	ADU_test_char = {
+		name="Postac testowa"
+		portraits = {
+			civilian = {
+				large="GFX_portrait_POL_anna_anderson"
+			}
+		}
+		country_leader = {
+			ideology=despotism
+			traits = { 	}
+			expire="1965.1.1.1"
+			#ID ZOSTAW 0 ALBO -1
+			id=-1
+		}
+		advisor={
+			slot = army_chief
+			idea_token = maxime_weygand
+			#allowed = {
+			#	original_tag = ADU
+			#}
+			#available = {
+			#	has_completed_focus = ADU_test_focus
+			#}
+			traits = { army_chief_defensive_2 }
+			cost = 100
+			ai_will_do = { factor = 1 }
+		}
+		
+		field_marshal={
+			traits={ old_guard inflexible_strategist career_officer defensive_doctrine }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+}
